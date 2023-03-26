@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+.brand {
+  color: rgb(27, 18, 18);
+}
+.brand:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  color: rgb(27, 18, 1);
+}
+
+.nav-link:hover {
+  color: rgb(99, 169, 226);
+  text-decoration: underline;
+}
+
+.cards {
+  box-shadow: 6px 6px 6px rgb(92, 91, 91);
+  width: 20rem;
+  height: 15rem;
+  margin-bottom: 3rem;
+}
+
+.cardss {
+  border: none;
+  width: 20rem;
+  height: 15rem;
+  margin-bottom: 3rem;
+}
+
+.cardss img {
+  width: 3rem;
+}
+
+.info img {
+  width: 1.5rem;
+}
+
+.con {
+  width: 4rem;
+  height: 4rem;
+  padding: 0.8rem;
+}
+
+.social {
+  width: 2rem;
+  height: 2rem;
+}
+
+.con:hover .social:hover {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0.2rem;
+}
