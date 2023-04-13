@@ -4,6 +4,7 @@
 .brand {
   color: rgb(27, 18, 18);
 }
+
 .brand:hover {
   text-decoration: underline;
 }
@@ -59,4 +60,25 @@
 .accordion {
   width: 80%;
   text-align: justify;
+}
+
+@media screen and (max-width: 600px)
+{
+  .card iframe {
+    width: 100% !important;
+    height: 10rem !important;
+  }
+
+  .video {
+    padding: 3rem 0 0 0!important;
+  }
+
+  .video .card{
+    border-radius: 0%;
+  }
+
+  .cont {
+    width: 95% !important;
+    padding: 0.5rem !important;
+  }
 }

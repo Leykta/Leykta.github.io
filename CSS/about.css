@@ -1,0 +1,43 @@
+@media screen and (max-width: 560px)
+{
+  .paragraph {
+    width: 90vw !important;
+    padding: 1rem !important;
+    text-align: justify !important;
+  }
+
+}
+
+.brand {
+  color: rgb(27, 18, 18);
+}
+
+.brand:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  color: rgb(27, 18, 1);
+}
+
+.nav-link:hover {
+  color: rgb(99, 169, 226);
+  text-decoration: underline;
+}
+
+.con {
+  width: 4rem;
+  height: 4rem;
+  padding: 0.8rem;
+}
+
+.social {
+  width: 2rem;
+  height: 2rem;
+}
+
+.con:hover .social:hover {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0.2rem;
+}
