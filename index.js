@@ -64,7 +64,7 @@ function tab(name) {
       picture.style.borderRadius = "10px";
       break;
       case 'tabfour':
-      header.innerHTML = "Contacts";
+      header.innerHTML = "Contact";
       text.innerHTML = "Email - leykunta@gmail.com \<br /> Phone - 0926475493";
       picture.style.background = "url('gmail.png')";
       picture.style.backgroundRepeat = "no-repeat";
