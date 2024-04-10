@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leykun Taye | Portfolio | Leykcodes</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="profile">
+          <img src="BDU1308665.jpg" alt="Profile picture" />
+        </div>
+        <span id="profiletext">Leykun Taye</span>
+        <div >
+          <ul class="navlink">
+            <li><a href="#" target="_self">Home</a></li>
+            <li><a href="#about" target="_self">About</a></li>
+            <li><a href="#project" target="_self">Projects</a></li>
+            <li><a href="#contact" target="_self">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <main>
+        <section class="hero">
+          <div class="title">
+            <h1 >Hello there, I'm Leykun Taye</h1>
+          </div>
+          <span class="text">Aspiring junior Software developer and UX/UI designer from Ethiopia currently learning <br />
+                Bachelors of Science(BSc) in Information Systems at Bahir Dar university.</span><br />
+          <a href="#contact">
+            <button class="contactb">
+              Contact
+            </button>
+          </a>
+        </section>
+        <aside class="socials">
+          <a href="@leykT/github.com" target="_blank"><div><img class="icons" src="github.svg" alt="" /></div></a><hr>
+          <a href="" target="_blank"><div><img class="icons" src="instagram.svg" alt="" /></div></a><hr>
+          <a href="" target="_blank"><div><img class="icons" src="linkedin.svg" alt="" /></div></a><hr>
+          <a href="@LeykT/telegram.com" target="_blank"><div><img class="icons" src="telegram.svg" alt="" /></div></a>
+        </aside>
+        <section class="about" id="about">
+          <h1>About me</h1>
+          <hr>
+          <p>Here you will find more information about me, what I do, and my current skills mostly <br />
+            in terms of programming and technology</p>
+          <div class="infocon">
+            <div class="info">
+              <h3>Get to know me</h3>
+              <p>I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and 
+                Web Applications including (UX & UI design) that leads
+                to the success of the overall product.
+                <br /><br />
+                Feel free to Connect or Follow me on my Linkedin and Instagram where I post
+                useful
+                content related to Web Development and Programming.
+                <br /><br />
+                I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my
+                skills and experience then don't hesitate to contact me.</p>
+            </div>
+            <div class="skills">
+            <h3>My skills</h3>
+              <div class="con">HTML</div>
+              <div class="con">CSS</div>
+              <div class="con">Javascript</div>
+              <div class="con">Bootstrap CSS</div>
+              <div class="con">Tailwind CSS</div>
+              <div class="con">React JS</div>
+              <div class="con">PHP</div>
+              <div class="con">Python</div>
+              <div class="con">Terminal</div>
+              <div class="con">Git & Github</div>
+            </div>
+          </div>
+        </section>
+        <section class="project" id="project">
+          <h1>Information</h1>
+          <hr />
+          <div class="divcon">
+            <div class="navtitle">
+              <div class="navb" id="one" onclick="tab('tabone')">Details</div>
+              <div class="navb" id="two" onclick="tab('tabtwo')">Interest</div>
+              <div class="navb" id="three" onclick="tab('tabthree')">Education</div>
+              <div class="navb" id="four" onclick="tab('tabfour')">Contact</div>
+            </div>
+            <div class="image" id="image">
+            </div>
+            <div class="content">
+              <h3 id="header">Basic Detail</h3>
+              <p id="ptext">Name - Leykun taye <br />
+                            Address - Bishoftu, Ethiopia <br />
+                            PoB - Bale <br />
+                            Interested in web development
+              </p>
+              <a href="#contact" target="_blank" id="primary"><button>Contact</button></a>
+              <!-- <button id="secondary">More</button> -->
+            </div>
+          </div>
+        </section>
+        <section class="contact" id="contact">
+          <h1>Contact</h1>
+          <hr />
+          <p>If you have any ideas feel free to contact me by submitting the form below and <br />
+            I will get back to you as soon as possible.</p>
+          <div class="form">
+            <form>
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Enter your Name"/>
+              <label for="email">Email</label>
+              <input id="email" type="text" placeholder="Enter your Email" />
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Enter your Message"></textarea>
+              <button class="submit">Submit</button>
+            </from>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h3>Used tools:</h3>
+        <div>
+          <div class="con">HTML</div>
+          <div class="con">CSS</div>
+          <div class="con">Javascript</div>
+        </div>
+        <hr />
+        <p>&COPY; Copyright 2024, Developed by <a href="#">Leykun Taye</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
